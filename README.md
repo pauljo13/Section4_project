@@ -51,8 +51,8 @@
     당뇨병 환자 데이터를 이용하여 나이, 성별, bmi, 흡연을 이용하여 당뇨 예측한 값을 구하는 모델을 만듬
     이를 이용하여 의료 보험료 데이터에 입력하여 추가적인 당뇨 확률을 구하고 이를 통한 의료 보험료를 예측하는 모델
 - 데이터 셋 사이트 :
-    당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
-    의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
+    - 당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
+    - 의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
 - 오늘 :
     - EDA
 - 내용 :
@@ -112,8 +112,8 @@
 ## Day 3
 - 도메인 : 의료, 헬스케어
 - 주제 선정 : 
-    당뇨병 환자 데이터를 이용하여 나이, 성별, bmi, 흡연을 이용하여 당뇨 예측한 값을 구하는 모델을 만듬
-    이를 이용하여 의료 보험료 데이터에 입력하여 추가적인 당뇨 확률을 구하고 이를 통한 의료 보험료를 예측하는 모델
+    - 당뇨병 환자 데이터를 이용하여 나이, 성별, bmi, 흡연을 이용하여 당뇨 예측한 값을 구하는 모델을 만듬
+    - 이를 이용하여 의료 보험료 데이터에 입력하여 추가적인 당뇨 확률을 구하고 이를 통한 의료 보험료를 예측하는 모델
 - 데이터 셋 사이트 :
     당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
     의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
@@ -132,8 +132,8 @@
     당뇨병 환자 데이터를 이용하여 나이, 성별, bmi, 흡연을 이용하여 당뇨 예측한 값을 구하는 모델을 만듬
     이를 이용하여 의료 보험료 데이터에 입력하여 추가적인 당뇨 확률을 구하고 이를 통한 의료 보험료를 예측하는 모델
 - 데이터 셋 사이트 :
-    당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
-    의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
+    - 당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
+    - 의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
 - 오늘 :
 
 - 내용 :
@@ -148,8 +148,8 @@
     당뇨병 환자 데이터를 이용하여 나이, 성별, bmi, 흡연을 이용하여 당뇨 예측한 값을 구하는 모델을 만듬
     이를 이용하여 의료 보험료 데이터에 입력하여 추가적인 당뇨 확률을 구하고 이를 통한 의료 보험료를 예측하는 모델
 - 데이터 셋 사이트 :
-    당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
-    의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
+    - 당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
+    - 의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
 - 오늘 :
 
 - 내용 :
