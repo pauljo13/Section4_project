@@ -104,6 +104,7 @@
             - yes 흡연자
 - 해결 방법 :
     - 두 데이터를 동일한 형태로 만들어야 머신러닝 시 모델의 일관성을 갖을 수 있을 것으로 보인다.
+    - smoking_history에서 No Info을 결측치로 보고 제거 이유는 흡연자가 중요 컬럼으로 사용하기 위해서
     - smoking_history을 여러가지 가능성
         1. 100% 비흡연자 vs 한 번이라도 흡연을 했다.
         2. 현재를 기준으로 비흡연자 vs 흡연자
@@ -115,14 +116,19 @@
     - 당뇨병 환자 데이터를 이용하여 나이, 성별, bmi, 흡연을 이용하여 당뇨 예측한 값을 구하는 모델을 만듬
     - 이를 이용하여 의료 보험료 데이터에 입력하여 추가적인 당뇨 확률을 구하고 이를 통한 의료 보험료를 예측하는 모델
 - 데이터 셋 사이트 :
-    당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
-    의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
+    - 당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
+    - 의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
 - 오늘 :
-
+    - 머신러닝 모델 제작하기
+    - 웹 스크롤링 해보기
+    - 데이터베이스 저장하기
 - 내용 :
-
+    - 당뇨환자 데이터셋 흡연자 데이터 문제
+        - 해결 : 상황에 따른 두가지 모델을 비교한 결과 현재의 흡연 여부가 모델 예측율이 높았다.
+    - 당뇨환자 머신러닝 모델:
+        - 사용한 머신러닝 모델 : XGBClassifier
 - 문제점 :
-
+    - keyerrar 발생 
 - 해결 방법 :
 - 2023-06-16 
 
@@ -135,13 +141,16 @@
     - 당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
     - 의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
 - 오늘 :
-
+    - 모델 청사진 완성하기
+    - 의료보험 머신러닝 모델:
+        - 사용한 머신러닝 모델 : XGBRegressor
 - 내용 :
-
+    - 머신러닝 모델의 청사진을 완성하기
 - 문제점 :
-
+    - 웹 스크롤링과 데이터베이스
+    - XGBRegressor 하이퍼파라미터 넣기
 - 해결 방법 :
-- 2023-06-1x 
+- 2023-06-17
 ## Day 5
 - 도메인 : 의료, 헬스케어
 - 주제 선정 : 
