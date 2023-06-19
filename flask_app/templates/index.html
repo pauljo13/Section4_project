@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>
+      HTML Page
+    </title>
+  </head>
+      <body>
+        <h1>미국 연간 의료보험료 계산</h1>
+        <form action="http://127.0.0.1:5000/main" method="post">
+            <p><select name="sex">
+                <option value="">성별선택</option>
+                <option value="male">남성</option>
+                <option value="female">여성</option>
+            </select></p>
+            <p><input type="number" placeholder="나이를 입력하세요." min=0 name='age' /></p>
+            <p><select name="somking">
+                <option value="">흡연 여부</option>
+                <option value="yes">흡연자</option>
+                <option value="no">비흡연자</option>
+            </select></p>
+            <p><input type="number" placeholder="자녀 수" min=0 name='children' /></p>
+            <p><input type="number" placeholder="키를 입력하세요." min=0 name='stature' /></p>
+            <p><input type="number" placeholder="몸무게를 입력하세요." min=0 name='weight' /></p>
+            <p><input type="submit" value="결과 확인" /></p>
+        </form>    
+      </body>
+</html>
