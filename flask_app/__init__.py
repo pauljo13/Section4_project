@@ -42,7 +42,7 @@ def result():
         children = int(request.form['children'])
         stature = int(request.form['stature'])
         weight = int(request.form['weight'])
-        bmi = round(weight/(stature**2),2)
+        bmi = round(weight/(stature*0.01),2)
         if bmi >= 35: #20미만(저체중),20-24(정상),25-29(과체중),30이상(비만)
             bmi_result = '고도비만'
         elif bmi >= 30:
@@ -66,9 +66,11 @@ def result():
         df = df[['age', 'sex', 'bmi', 'children', 'smoking', 'diabetes']]
         with open('medical_model.pkl','rb') as pickle_file:
             model_m =pickle.load(pickle_file)
-        result = '{:0,.2f}'.format(model_m.predict(df)[0])
+        date_pred = model_m.predict(df)[0]
+        result = '{:0,.2f}'.format(date_pred)
+        result_12 = '{:0,.2f}'.format((date_pred/12))
         
-    main = render_template('main.html',bmi=bmi,bmi_result=bmi_result,diat_result=diat_result,result=result)
+    main = render_template('main.html',bmi=bmi,bmi_result=bmi_result,diat_result=diat_result,result=result,result_12=result_12)
     return main, 200
 
 if __name__ == "__main__":
