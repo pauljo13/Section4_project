@@ -151,6 +151,7 @@
     - XGBRegressor 하이퍼파라미터 넣기
 - 해결 방법 :
 - 2023-06-17
+
 ## Day 5
 - 도메인 : 의료, 헬스케어
 - 주제 선정 : 
@@ -160,10 +161,24 @@
     - 당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
     - 의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
 - 오늘 :
-
+    - 모델 세부 조정
+    - Flask 을 이용한 간단한 사이트 제작
+    - 사이트에 모델 탑제
 - 내용 :
+    - 완성한 모델을 Flask을 이용해 사이트를 만들어 탑제
+- 2023-06-18
 
-- 문제점 :
-
-- 해결 방법 :
-- 2023-06-1x 
+## Day 6
+- 도메인 : 의료, 헬스케어
+- 주제 선정 : 
+    당뇨병 환자 데이터를 이용하여 나이, 성별, bmi, 흡연을 이용하여 당뇨 예측한 값을 구하는 모델을 만듬
+    이를 이용하여 의료 보험료 데이터에 입력하여 추가적인 당뇨 확률을 구하고 이를 통한 의료 보험료를 예측하는 모델
+- 데이터 셋 사이트 :
+    - 당뇨환자 데이터셋 : https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset?resource=download
+    - 의료보험 데이터셋 : https://www.kaggle.com/datasets/harshsingh2209/medical-insurance-payout
+- 오늘 :
+    - 사이트에 모델 탑제
+- 내용 :
+    - 완성한 모델을 Flask을 이용해 사이트를 만들어 탑제
+    
+- 2023-06-19
